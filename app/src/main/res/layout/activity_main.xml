@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#332052">
+    android:background="@color/backgroundColor">
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="400dp"
@@ -61,8 +61,8 @@
         />
 
     <Button
+        android:id="@+id/main_createAccount_btn"
         app:backgroundTint="@color/buttonColor"
-        android:id="@+id/main_register_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="470dp"
