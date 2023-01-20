@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#332052">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/campfire2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dimitri"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="60sp"
+        android:layout_marginTop="200dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:fontFamily="@font/lemonmilk_regular"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:layout_marginTop="260dp"
+
+        />
+
+    <EditText
+        android:id="@+id/main_username_input"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="350dp"
+        />
+
+    <EditText
+        android:id="@+id/main_password_input"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="400dp"
+        />
+
+    <Button
+        app:backgroundTint="@color/buttonColor"
+        android:id="@+id/main_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="230dp"
+        android:text="Create Account"
+        android:textSize="13sp"
+        android:padding="5dp"
+        />
+
+    <Button
+        app:backgroundTint="@color/buttonColor"
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="20dp"
+        android:text="Login"
+        android:textSize="13sp"
+        android:padding="5dp"
+
+        />
+
+
+
+</RelativeLayout>
+
+

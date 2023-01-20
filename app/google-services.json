@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "99590743224",
+    "project_id": "clutchcamp-7a010",
+    "storage_bucket": "clutchcamp-7a010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99590743224:android:360ede18931e71bda1404d",
+        "android_client_info": {
+          "package_name": "com.example.it512020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99590743224-1en8v03n8r7a32cpulv9c4jsrmn2nbgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.it512020",
+            "certificate_hash": "906c51eb75fd753328429f231b065a7038b64e02"
+          }
+        },
+        {
+          "client_id": "99590743224-io535amc8qpjbbvdujis8k2258v1n95f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPDIOhGBdKw96I75qitBgnbqLDy7ocYv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99590743224-io535amc8qpjbbvdujis8k2258v1n95f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
