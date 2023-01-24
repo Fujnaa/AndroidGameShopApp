@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/input_design"
         android:padding="7dp"
+        android:inputType="text"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="330dp"
@@ -44,6 +45,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/input_design"
         android:padding="7dp"
+        android:inputType="textEmailAddress"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="380dp"
@@ -56,6 +58,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/input_design"
         android:padding="7dp"
+        android:inputType="textPassword"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="430dp"
@@ -68,6 +71,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/input_design"
         android:padding="7dp"
+        android:inputType="textPassword"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="480dp"
@@ -86,17 +90,16 @@
         />
 
     <ProgressBar
-        style="@android:style/Widget.ProgressBar.Horizontal"
         android:id="@+id/register_progress_bar"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="310dp"
+        android:indeterminateTint="@color/purple_200"
+        android:visibility="gone"
         android:max="100"
-        android:backgroundTint="@color/white"
-        android:indeterminateTint="#1a09d6"
         />
 
 
